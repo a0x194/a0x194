@@ -1,214 +1,72 @@
-<div align="center">
+<h1 align="center">a0x194</h1>
 
-<!-- GLITCH HEADER -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=60&duration=1&pause=99999&color=00FF88&center=true&vCenter=true&repeat=false&width=500&height=80&lines=a0x194" />
+<p align="center">
+  <strong>Security Researcher · Tool Developer · Penetration Tester</strong>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=3000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&height=30&lines=%E2%96%88%E2%96%88%E2%96%88+SECURITY+RESEARCHER+%E2%96%88%E2%96%88%E2%96%88+EXPLOIT+DEVELOPER+%E2%96%88%E2%96%88%E2%96%88+BUG+HUNTER+%E2%96%88%E2%96%88%E2%96%88" />
+<p align="center">
+  <a href="https://www.tryharder.space">
+    <img src="https://img.shields.io/badge/Website-tryharder.space-00ff88?style=flat&logo=firefox&logoColor=white" />
+  </a>
+  <a href="https://www.tryharder.space/tools/">
+    <img src="https://img.shields.io/badge/Security-Tools-00ff88?style=flat&logo=gnubash&logoColor=white" />
+  </a>
+  <a href="mailto:admin@tryharder.space">
+    <img src="https://img.shields.io/badge/Contact-Email-00ff88?style=flat&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
-<br>
+---
 
-<!-- NEON BADGES -->
-<a href="https://www.tryharder.space"><img src="https://img.shields.io/badge/TRYHARDER-PLATFORM-black?style=flat-square&labelColor=000000&color=00ff88&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwZmY4OCIgZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==" /></a>
-<img src="https://img.shields.io/badge/STATUS-ONLINE-black?style=flat-square&labelColor=000000&color=00ff88" />
-<img src="https://img.shields.io/badge/THREAT_LEVEL-MAXIMUM-black?style=flat-square&labelColor=000000&color=ff0040" />
+### About
 
-</div>
+I'm a security researcher focused on building open-source security tools and conducting vulnerability research. My work primarily involves web application security, cloud infrastructure, and CI/CD pipeline security.
 
-<br>
+Currently building **[TryHarder](https://www.tryharder.space)** — a security training platform for ethical hackers.
 
-<!-- CYBER TERMINAL -->
-```css
-/*
- * ████████╗██████╗ ██╗   ██╗██╗  ██╗ █████╗ ██████╗ ██████╗ ███████╗██████╗
- * ╚══██╔══╝██╔══██╗╚██╗ ██╔╝██║  ██║██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
- *    ██║   ██████╔╝ ╚████╔╝ ███████║███████║██████╔╝██║  ██║█████╗  ██████╔╝
- *    ██║   ██╔══██╗  ╚██╔╝  ██╔══██║██╔══██║██╔══██╗██║  ██║██╔══╝  ██╔══██╗
- *    ██║   ██║  ██║   ██║   ██║  ██║██║  ██║██║  ██║██████╔╝███████╗██║  ██║
- *    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
- *                              S E C U R I T Y
- */
+---
 
-@system.boot {
-    user: a0x194;
-    role: Security Researcher;
-    status: Breaking systems, building tools;
-    location: /dev/null;
+### Open Source Security Tools
 
-    --primary: #00ff88;
-    --danger: #ff0040;
-    --bg: #000000;
-}
-```
+| Tool | Description | Language |
+|:-----|:------------|:--------:|
+| **[CORScan](https://github.com/a0x194/corscan)** | CORS misconfiguration scanner | Go |
+| **[HTTPSmuggler](https://github.com/a0x194/httpsmuggler)** | HTTP request smuggling detector | Go |
+| **[CloudBucket](https://github.com/a0x194/cloudbucket)** | Multi-cloud storage bucket scanner | Go |
+| **[CICDGuard](https://github.com/a0x194/cicdguard)** | CI/CD pipeline security scanner | Go |
 
-<br>
+---
 
-<!-- 3D CONTRIBUTION CALENDAR -->
-<div align="center">
-
-<a href="https://github.com/a0x194">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=a0x194&bg_color=000000&color=00ff88&line=00ff88&point=ff0040&area=true&hide_border=true&custom_title=" height="200"/>
-</a>
-
-</div>
-
-<br>
-
-<!-- CYBER GRID LAYOUT -->
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="50%" valign="top">
-
-```ruby
-# ═══════════════════════════════
-#         ATTACK VECTORS
-# ═══════════════════════════════
-
-module Offensive
-  CAPABILITIES = {
-    web_security:     "██████████ 100%",
-    cloud_hacking:    "████████░░  85%",
-    api_exploitation: "█████████░  90%",
-    cicd_attacks:     "████████░░  80%",
-    red_team_ops:     "█████████░  90%"
-  }
-end
-
-# Status: Armed & Dangerous
-# Target: All vulnerable systems
-```
-
-</td>
-<td width="50%" valign="top">
-
-```go
-// ═══════════════════════════════
-//         SYSTEM.CONFIG
-// ═══════════════════════════════
-
-package main
-
-var Arsenal = map[string]string{
-    "CORScan":      "CORS Scanner",
-    "HTTPSmuggler": "Request Smuggling",
-    "CloudBucket":  "Cloud Storage Audit",
-    "CICDGuard":    "Pipeline Security",
-}
-
-var Links = struct {
-    Platform string
-    Tools    string
-}{
-    "tryharder.space",
-    "tryharder.space/tools",
-}
-```
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<!-- NEON ARSENAL CARDS -->
-<div align="center">
-
-<a href="https://github.com/a0x194/corscan"><img src="https://img.shields.io/badge/▸_CORScan-CORS_EXPLOITATION-000000?style=for-the-badge&labelColor=0d0d0d&color=00ff88" /></a>
-<a href="https://github.com/a0x194/httpsmuggler"><img src="https://img.shields.io/badge/▸_HTTPSmuggler-REQUEST_SMUGGLING-000000?style=for-the-badge&labelColor=0d0d0d&color=ff0040" /></a>
-<br>
-<a href="https://github.com/a0x194/cloudbucket"><img src="https://img.shields.io/badge/▸_CloudBucket-CLOUD_SECURITY-000000?style=for-the-badge&labelColor=0d0d0d&color=00ff88" /></a>
-<a href="https://github.com/a0x194/cicdguard"><img src="https://img.shields.io/badge/▸_CICDGuard-PIPELINE_ATTACKS-000000?style=for-the-badge&labelColor=0d0d0d&color=ff0040" /></a>
-
-</div>
-
-<br>
-
-<!-- TECH DNA -->
-<div align="center">
+### Expertise
 
 ```
-╭──────────────────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│   ░██████╗░░█████╗░  ██████╗░██╗░░░██╗████████╗██╗░░██╗░█████╗░███╗░░██╗     │
-│   ██╔════╝░██╔══██╗  ██╔══██╗╚██╗░██╔╝╚══██╔══╝██║░░██║██╔══██╗████╗░██║     │
-│   ██║░░██╗░██║░░██║  ██████╔╝░╚████╔╝░░░░██║░░░███████║██║░░██║██╔██╗██║     │
-│   ██║░░╚██╗██║░░██║  ██╔═══╝░░░╚██╔╝░░░░░██║░░░██╔══██║██║░░██║██║╚████║     │
-│   ╚██████╔╝╚█████╔╝  ██║░░░░░░░░██║░░░░░░██║░░░██║░░██║╚█████╔╝██║░╚███║     │
-│   ░╚═════╝░░╚════╝░  ╚═╝░░░░░░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚══╝     │
-│                                                                              │
-│   ┌─────────────────────────────────────────────────────────────────────┐    │
-│   │  Go ═══════════════════════════════════════════════════════▶ 95%   │    │
-│   │  Python ═══════════════════════════════════════════════════▶ 90%   │    │
-│   │  JavaScript ═══════════════════════════════════════════════▶ 85%   │    │
-│   │  Rust ═══════════════════════════════════════════════▶ 70%         │    │
-│   │  Bash ═══════════════════════════════════════════════════▶ 90%     │    │
-│   └─────────────────────────────────────────────────────────────────────┘    │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
+Offensive Security          Cloud Security              Development
+─────────────────          ─────────────────           ─────────────────
+• Web App Pentesting       • AWS / GCP / Azure         • Go
+• API Security             • Container Security        • Python
+• OWASP Top 10             • Kubernetes                • JavaScript
+• Red Team Operations      • Infrastructure as Code    • Bash
 ```
 
-</div>
+---
 
-<br>
+### Tech Stack
 
-<!-- ICON STRIP -->
-<div align="center">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,python,js,bash,docker,kubernetes,linux,aws,gcp,azure&theme=dark" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=go,python,rust,js,bash,linux,docker,kubernetes,aws,gcp&theme=dark&perline=10" />
+---
 
-</div>
+### Stats
 
-<br>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=a0x194&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=ffffff&hide_title=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=a0x194&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=ffffff&hide_title=true" height="150" />
+</p>
 
-<!-- SYSTEM STATUS -->
-<div align="center">
+---
 
-```diff
-+ ═══════════════════════════════════════════════════════════════════════════════
-+                              [ SYSTEM STATUS ]
-+ ═══════════════════════════════════════════════════════════════════════════════
-
-! > Initializing security protocols...                                    [OK]
-! > Loading exploit frameworks...                                         [OK]
-! > Scanning attack surface...                                            [OK]
-! > Vulnerability assessment...                                           [OK]
-
-+ ═══════════════════════════════════════════════════════════════════════════════
-
-  WEBSITE    ─────────────────────────────────▶  https://www.tryharder.space
-  TOOLS      ─────────────────────────────────▶  https://www.tryharder.space/tools/
-  CONTACT    ─────────────────────────────────▶  admin@tryharder.space
-
-+ ═══════════════════════════════════════════════════════════════════════════════
-
-@@    "There is no patch for human stupidity."                                @@
-
-+ ═══════════════════════════════════════════════════════════════════════════════
-```
-
-</div>
-
-<br>
-
-<!-- FOOTER -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=27&height=2&section=header"/>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=a0x194&style=flat-square&color=00ff88&label=SCANS"/>
-
-<br><br>
-
-```
-             ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-            ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
-            ██░░  ▀█▀ █▀█ █▄█ █░█ ▄▀█ █▀█ █▀▄ █▀▀ █▀█  ░░░░██
-            ██░░  ░█░ █▀▄ ░█░ █▀█ █▀█ █▀▄ █▄▀ ██▄ █▀▄  ░░░░██
-            ██░░                                        ░░░░██
-            ██░░        S E C U R I T Y   L A B S       ░░░░██
-            ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
-             ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-```
-
-</div>
+<p align="center">
+  <a href="https://www.tryharder.space">www.tryharder.space</a>
+</p>
