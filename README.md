@@ -8,6 +8,9 @@
   <a href="https://www.tryharder.space">
     <img src="https://img.shields.io/badge/Website-tryharder.space-00ff88?style=flat&logo=firefox&logoColor=white" />
   </a>
+  <a href="https://github.com/a0x194/tryharder-extension">
+    <img src="https://img.shields.io/badge/🔥_NEW-Browser_Extension-ff6b6b?style=flat" />
+  </a>
   <a href="https://www.tryharder.space/tools/">
     <img src="https://img.shields.io/badge/Security-Tools-00ff88?style=flat&logo=gnubash&logoColor=white" />
   </a>
@@ -15,6 +18,58 @@
     <img src="https://img.shields.io/badge/Contact-Email-00ff88?style=flat&logo=gmail&logoColor=white" />
   </a>
 </p>
+
+---
+
+## 🔥 Featured: TryHarder Security Suite
+
+<div align="center">
+
+[![Extension Banner](https://img.shields.io/badge/🧩_Browser_Extension-15_Security_Tools_in_One-00ff88?style=for-the-badge&labelColor=000000)](https://github.com/a0x194/tryharder-extension)
+
+**15-in-1 Browser Security Testing Toolkit**
+
+Works with Chrome · Edge · Firefox · Brave
+
+[![Download](https://img.shields.io/badge/⬇️_Download-v1.0.0-00ff88?style=for-the-badge&labelColor=000)](https://github.com/a0x194/tryharder-extension/releases)
+[![Stars](https://img.shields.io/github/stars/a0x194/tryharder-extension?style=for-the-badge&labelColor=000&color=00ff88)](https://github.com/a0x194/tryharder-extension)
+
+</div>
+
+<table>
+<tr>
+<td width="33%">
+
+**Tier 1 - Recon**
+- SubRecon
+- ParamFuzz
+- JSHunter
+- SQLiDetect
+- AuthBypass
+
+</td>
+<td width="33%">
+
+**Tier 2 - Info Gathering**
+- WaybackMiner
+- HeaderAudit
+- APIRecon
+- PortRush
+- GitLeaks
+
+</td>
+<td width="34%">
+
+**Tier 3 - Advanced**
+- ProtoDetect
+- CertWatch
+- DNSTracer
+- WebTechFP
+- CachePoison
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -140,18 +195,20 @@ cd corscan && go build -o corscan
 ### Expertise
 
 ```
-Offensive Security          Cloud Security              Development
-─────────────────          ─────────────────           ─────────────────
-• Web App Pentesting       • AWS / GCP / Azure         • Go
-• API Security             • Container Security        • Python
-• OWASP Top 10             • Kubernetes                • JavaScript
-• Red Team Operations      • Infrastructure as Code    • Bash
+Offensive Security           Cloud Security              Development
+─────────────────           ─────────────────           ─────────────────
+• Web App Pentesting        • AWS / GCP / Azure         • Go
+• API Security              • Container Security        • Python
+• OWASP Top 10              • Kubernetes                • JavaScript
+• Red Team Operations       • Infrastructure as Code    • Bash
 ```
 
 ---
 
 <p align="center">
   <strong><a href="https://www.tryharder.space">🌐 www.tryharder.space</a></strong>
+  &nbsp;·&nbsp;
+  <strong><a href="https://github.com/a0x194/tryharder-extension">🧩 Browser Extension</a></strong>
   &nbsp;·&nbsp;
   <strong><a href="https://www.tryharder.space/tools/">🔧 More Tools</a></strong>
 </p>
