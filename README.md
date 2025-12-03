@@ -20,20 +20,120 @@
 
 ### About
 
-I'm a security researcher focused on building open-source security tools and conducting vulnerability research. My work primarily involves web application security, cloud infrastructure, and CI/CD pipeline security.
-
-Currently building **[TryHarder](https://www.tryharder.space)** — a security training platform for ethical hackers.
+Security researcher building open-source offensive security tools. Creator of **[TryHarder](https://www.tryharder.space)** — a security training platform for ethical hackers.
 
 ---
 
-### Open Source Security Tools
+## 🔧 Security Tools
 
-| Tool | Description | Language |
-|:-----|:------------|:--------:|
-| **[CORScan](https://github.com/a0x194/corscan)** | CORS misconfiguration scanner | Go |
-| **[HTTPSmuggler](https://github.com/a0x194/httpsmuggler)** | HTTP request smuggling detector | Go |
-| **[CloudBucket](https://github.com/a0x194/cloudbucket)** | Multi-cloud storage bucket scanner | Go |
-| **[CICDGuard](https://github.com/a0x194/cicdguard)** | CI/CD pipeline security scanner | Go |
+<table>
+<tr>
+<td width="50%">
+
+### [CORScan](https://github.com/a0x194/corscan)
+
+**CORS Misconfiguration Scanner**
+
+Fast, multi-threaded scanner for detecting dangerous CORS configurations.
+
+```bash
+./corscan -u https://target.com
+./corscan -l urls.txt -t 20
+```
+
+**Features:**
+- Origin reflection detection
+- Wildcard + credentials check
+- Null origin bypass
+- Subdomain trust issues
+
+</td>
+<td width="50%">
+
+### [HTTPSmuggler](https://github.com/a0x194/httpsmuggler)
+
+**HTTP Request Smuggling Detector**
+
+Detect CL.TE, TE.CL, and TE.TE smuggling vulnerabilities.
+
+```bash
+./httpsmuggler -u https://target.com
+./httpsmuggler -l urls.txt -t 5
+```
+
+**Features:**
+- CL.TE / TE.CL detection
+- TE.TE obfuscation tests
+- Time-based analysis
+- Multiple payload variants
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [CloudBucket](https://github.com/a0x194/cloudbucket)
+
+**Multi-Cloud Storage Bucket Scanner**
+
+Discover misconfigured buckets across AWS, GCP, Azure, and more.
+
+```bash
+./cloudbucket -b company-backup
+./cloudbucket -l buckets.txt -p aws,gcp
+```
+
+**Features:**
+- AWS S3 / GCP / Azure / Alibaba OSS
+- Public read/write detection
+- File enumeration
+- Multi-threaded scanning
+
+</td>
+<td width="50%">
+
+### [CICDGuard](https://github.com/a0x194/cicdguard)
+
+**CI/CD Pipeline Security Scanner**
+
+Detect vulnerabilities in GitHub Actions, GitLab CI, Jenkins.
+
+```bash
+./cicdguard -d ./my-project
+./cicdguard -repo owner/repo
+```
+
+**Features:**
+- Hardcoded secrets detection
+- Command injection checks
+- Dangerous workflow triggers
+- Unpinned action versions
+
+</td>
+</tr>
+</table>
+
+---
+
+### Quick Install
+
+All tools are written in **Go** — single binary, zero dependencies.
+
+```bash
+# Clone and build any tool
+git clone https://github.com/a0x194/corscan.git
+cd corscan && go build -o corscan
+
+# Or download pre-built binaries from Releases
+```
+
+---
+
+### Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,python,js,bash,docker,kubernetes,linux,aws,gcp,azure&theme=dark" />
+</p>
 
 ---
 
@@ -50,23 +150,8 @@ Offensive Security          Cloud Security              Development
 
 ---
 
-### Tech Stack
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,js,bash,docker,kubernetes,linux,aws,gcp,azure&theme=dark" />
-</p>
-
----
-
-### Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=a0x194&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=ffffff&hide_title=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=a0x194&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=ffffff&hide_title=true" height="150" />
-</p>
-
----
-
-<p align="center">
-  <a href="https://www.tryharder.space">www.tryharder.space</a>
+  <strong><a href="https://www.tryharder.space">🌐 www.tryharder.space</a></strong>
+  &nbsp;·&nbsp;
+  <strong><a href="https://www.tryharder.space/tools/">🔧 More Tools</a></strong>
 </p>
